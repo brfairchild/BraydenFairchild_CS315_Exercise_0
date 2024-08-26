@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=3 uid="uid://bjmkp48m3r1c1"]
+
+[ext_resource type="Texture2D" uid="uid://cwm6m658cx5vc" path="res://art/enemySwimming_1.png" id="1_bwdrw"]
+[ext_resource type="Script" path="res://mob.gd" id="1_ypsiy"]
+[ext_resource type="Texture2D" uid="uid://b4n5m584vxxng" path="res://art/enemySwimming_2.png" id="2_a6j4c"]
+[ext_resource type="Texture2D" uid="uid://dgjh0xjlhi72i" path="res://art/enemyWalking_1.png" id="3_paafg"]
+[ext_resource type="Texture2D" uid="uid://y45jlwts21xg" path="res://art/enemyWalking_2.png" id="4_giv5d"]
+[ext_resource type="Texture2D" uid="uid://be4t5deqxqnl" path="res://art/enemyFlyingAlt_1.png" id="5_2kygj"]
+[ext_resource type="Texture2D" uid="uid://dawb66yjcjk6r" path="res://art/enemyFlyingAlt_2.png" id="6_ka7ia"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_e1eim"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_bwdrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_a6j4c")
+}],
+"loop": true,
+"name": &"Swim",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_paafg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_giv5d")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_2kygj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ka7ia")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dcjw8"]
+radius = 38.0
+height = 78.0
+
+[node name="Mob" type="RigidBody2D"]
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_ypsiy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.75, 0.75)
+sprite_frames = SubResource("SpriteFrames_e1eim")
+animation = &"Swim"
+speed_scale = 3.0
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(11, 1)
+shape = SubResource("CapsuleShape2D_dcjw8")
