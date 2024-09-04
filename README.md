@@ -48,5 +48,13 @@ Completed the Activity Report
 
 > I did not realize there were more steps to be completed after finishing the tutorial and I turn it in without looking or checking to make sure.
 
-> After discovering the pages about exercises I went back into the project and made sure everything was set up correctly and filled out the activity report. 
+> After discovering the pages about exercises I went back into the project and made sure everything was set up correctly and filled out the activity report.
+
+Fixed Naming Convention for real
+
+> Read through the instructions again to find a part that I missed, I assumed the xyz could be replaced with my fullname but I see that it was specifically my bsu login or surname so I changed it brfairchild.
+
+Licences added
+
+> I was under the assumption that I only needed to say I used the tutorial after reviewing the work I added licences for everything used inside of the project. Moral of the story, I need to read the instructions better.
 
