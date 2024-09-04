@@ -7,7 +7,17 @@
 ### Assets Used
 
 [dodge_the_creeps_2d_assets](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html)
->© Copyright 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0). Revision d324d78c
+> © Copyright 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0). Revision d324d78c
+
+[art/House In a Forest Loop.ogg](https://opengameart.org/content/loop-house-in-a-forest)
+> Copyright © 2012 HorrorPen, CC-BY 3.0
+
+Images [Abstract Platformer](https://www.kenney.nl/assets/abstract-platformer)
+> CC0 1.0 Universal
+
+Font [Xolonium](sev.ch@web.de)
+> Copyright © 2011-2016 Severin Meyer with Reserved Font Name Xolonium, SIL open font license version 1.1. Details are in fonts/LICENSE.txt
+
 
 ### Activity Report
 
