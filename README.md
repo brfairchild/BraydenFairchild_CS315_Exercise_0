@@ -21,8 +21,14 @@ Font [Xolonium](sev.ch@web.de)
 
 ### Activity Report
 
-Followed the tutorial provided by Godot, the purpose of this exercise was the familiarize ourselves with the Godot engine. This project has us creating a playable character along with randomly spawning enemies on a path that will then move that the player will have to dodge, alone with this we have also created HUD elements and how to connect them to code.
+- Followed the tutorial provided by Godot, the purpose of this exercise was the familiarize ourselves with the Godot engine. This project has us creating a playable character along with randomly spawning enemies on a path that will then move that the player will have to dodge, alone with this we have also created HUD elements and how to connect them to code.
 
+### Essential Goals Met
+
+- Set up GIT for version control
+- The tutorial has been completed
+- The licenses of third-party assets are correctly included
+- Completed project report.
 
 ### Revision Report
 
