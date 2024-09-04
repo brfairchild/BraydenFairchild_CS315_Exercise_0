@@ -2,7 +2,7 @@
 
 ### Description
 
-> This is a tutorial on how to build a 2D game following [Godot Engine's guide](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html)
+- This is a tutorial on how to build a 2D game following [Godot Engine's guide](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html)
 
 ### Assets Used
 
